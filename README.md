@@ -25,13 +25,6 @@ It exposes a small REST API that the companion frontend (hosted at <https://tict
 
 ---
 
-## Prerequisites
-
-1. **JDK 17** or later in your `PATH`.
-2. (Optional) **Maven 3**. If you do not have Maven installed, the bundled wrapper will be used automatically.
-
----
-
 ## Running Locally
 
 ```bash
@@ -123,25 +116,6 @@ Create a file `src/main/resources/application-local.properties` or set the varia
 # Build executable jar (output in `target/`)
 ./mvnw clean package
 ```
-
----
-
-## Deployment
-
-This project is Heroku-ready. After creating a Heroku app, simply push the code and Heroku will:
-
-1. Detect the Maven buildpack
-2. Execute `./mvnw clean package`
-3. Run the jar using the command defined in `Procfile`
-
-Alternatively, deploy the jar anywhere Java 17 is available.
-
----
-
-## Acknowledgements
-
-* Spring Boot 3
-* Project Lombok
 
 ---
 
