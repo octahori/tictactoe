@@ -1,5 +1,7 @@
 # Tic Tac Toe – Spring Boot REST API
 
+> ⚠️ **Project Status: Inactive** – This application is no longer live and its deployment has been pulled.
+
 A configurable Tic-Tac-Toe backend written with **Spring Boot 3**.  
 It exposes a small REST API that the companion frontend (hosted at <https://tictactoe-frontend-delta.vercel.app/>) consumes.
 
